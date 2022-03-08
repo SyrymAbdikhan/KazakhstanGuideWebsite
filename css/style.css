@@ -1,0 +1,78 @@
+
+* {
+    cursor: none !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+[id] {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#mountains {
+    min-height: 75vh;
+    border-radius: 0;
+    background-image: url("../images/other/1.jpg");
+}
+
+#curves {
+    min-height: 30vh;
+    background-image: url("../images/other/2.png");
+}
+
+.bg-blue {
+    background-color: #2f5385;
+}
+
+.bg-green {
+    background-color: #8faf9f;
+}
+
+.bg-red {
+    background-color: #dc1c13;
+}
+
+.spinner-wrapper {
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 10000;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.spinner {
+    height: 3rem;
+    width: 3rem;
+}
+
+.onsubmit {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 10000;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.cursor {
+    width: 2rem;
+    height:2rem;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.mouse-down {
+    border: 6px solid rgba(0,0,0,0.5);
+}
